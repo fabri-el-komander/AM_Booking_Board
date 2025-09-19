@@ -3,7 +3,7 @@
 from datetime import datetime, timedelta
 import pandas as pd
 
-DEFAULT_HOURS = 2  # default duration when end_time is missing
+DEFAULT_HOURS = 4.5  # default duration when end_time is missing
 
 def _guess(colnames, *candidates):
     low = {c.lower(): c for c in colnames}
